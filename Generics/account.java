@@ -12,12 +12,6 @@ public class account <T>{
         this.currency=c;
     }
 
-   
-
-    
-   
-
-
     public String getOwner(){
         return owner;
     }
