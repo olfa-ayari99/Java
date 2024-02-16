@@ -6,14 +6,13 @@ import java.util.List;
 
 public class newExp {
 
-    List<String> names = Arrays.asList("olfa", "bob", "alice");
+   public static void main(String[] args){
+        sumInterface SumCalculator=(x,y) -> x + y;
+        int r = SumCalculator.sum(2,3);
 
-    Collections.sort (names , new Comparator<String>() {
+        System.out.println(r);
 
-        @Override
-        
-        public int compare(String s1, String s2) {
-            return s1.compareTo(s2);
-        }
-    });
+   }
+
+   
 }
