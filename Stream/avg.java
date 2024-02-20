@@ -72,6 +72,8 @@ public class avg {
         Integer secMin = i.stream().distinct().sorted().skip(1).findFirst().orElse(null);
         System.out.println("second smallest: " + secMin);
 
+        
+
 
 
 
